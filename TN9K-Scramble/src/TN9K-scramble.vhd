@@ -11,7 +11,7 @@
 --   2 : Start 2 players
 --   1 : Start 1 player
 --   LCtrl : Fire
---   LAlt  : Bomb
+--   X : Bomb
 --   RIGHT arrow : Move Right
 --   LEFT arrow  : Move Left
 --   UP arrow : Move Up
