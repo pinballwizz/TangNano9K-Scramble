@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------
 --                          Scramble - Tang Nano 9k
---                         Code from Mister Project
+--                             Code from MikeJ
 --
 --                        Modified for Tang Nano 9k 
 --                            by pinballwiz.org 
