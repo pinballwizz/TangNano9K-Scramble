@@ -157,9 +157,9 @@ scramble : entity work.scramble_top
 -------------------------------------------------------------------------
 -- to output
 
-	O_VIDEO_R 	<= video_r_x2(5) or video_r_x2(4);-- or video_r_x2(3) or video_r_x2(2); -- or video_r_x2(1) or video_r_x2(0);
-	O_VIDEO_G 	<= video_g_x2(5) or video_g_x2(4);-- or video_g_x2(3) or video_g_x2(2);-- or video_g_x2(1) or video_g_x2(0);
-	O_VIDEO_B 	<= video_b_x2(5) or video_b_x2(4);-- or video_b_x2(3) or video_b_x2(2);-- or video_b_x2(1) or video_b_x2(0);
+	O_VIDEO_R 	<= video_r_x2(5) or video_r_x2(4);
+	O_VIDEO_G 	<= video_g_x2(5) or video_g_x2(4);
+	O_VIDEO_B 	<= video_b_x2(5) or video_b_x2(4);
 	O_HSYNC     <= hsync_x2;
 	O_VSYNC     <= vsync_x2;
 ------------------------------------------------------------------------------
