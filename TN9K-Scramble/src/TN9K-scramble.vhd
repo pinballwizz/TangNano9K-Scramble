@@ -163,22 +163,6 @@ scramble : entity work.scramble_top
 	O_HSYNC     <= hsync_x2;
 	O_VSYNC     <= vsync_x2;
 ------------------------------------------------------------------------------
--- dac
-
---  u_dac : entity work.dac
---	generic map(
---	  msbi_g => 7
---	)
---	port  map(
---	  clk_i   => Clock_12,
---	  res_n_i => I_RESET,
---	  dac_i   => audio,
---	  dac_o   => audio_out
---	);
-
--- O_AUDIO_L <= audio_out;
--- O_AUDIO_R <= audio_out;
-------------------------------------------------------------------------------
 -- get scancode from keyboard
 
 keyboard : entity work.io_ps2_keyboard
