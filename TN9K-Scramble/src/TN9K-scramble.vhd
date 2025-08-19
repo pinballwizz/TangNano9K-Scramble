@@ -145,7 +145,7 @@ scramble : entity work.scramble_top
 		r_in => video_r & "00",
 		g_in => video_g & "00",
 		b_in => video_b & "00",
-		hs_in => h_sync,
+		hs_in => not h_sync,
 		vs_in => v_sync,
 		r_out => video_r_x2,
 		g_out => video_g_x2,
